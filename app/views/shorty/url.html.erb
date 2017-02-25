@@ -1,0 +1,10 @@
+<h1>Shorten your URL</h1>
+<div>
+<%= form_tag (shorty_url_path) do  %>
+    <%= search_field_tag :url %>
+    <%= submit_tag ".shorten" %>
+</div>
+
+<% end %>
+
+<%= link_to "localhost:3000/#{@urlshorty.id}", "/#{@urlshorty.id}"  %>

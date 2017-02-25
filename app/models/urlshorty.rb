@@ -1,0 +1,2 @@
+class Urlshorty < ApplicationRecord
+end
