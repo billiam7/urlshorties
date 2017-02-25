@@ -1,8 +1,8 @@
 class ShortyController < ApplicationController
   def url
-    @urlshorty = Urlshorty.new
-    @urlshorty.reg_url = params[:url]
-    @urlshorty.save
+    @shorty = Urlshorty.new
+    @shorty.reg_url = params[:url]
+    @shorty.save
   end
 
   def redo
